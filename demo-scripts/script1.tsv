@@ -25,17 +25,17 @@ GetArtsy	Got it! I'll place a flower at approximately two-thirds to the right an
 ###
 Searching	Oh, I'm glad you liked it! 😊 I'd be happy to help you install software. Please let me know the name of the software you'd like to install, and I will have it ready in no time.
 ###
-### I need Notepad++
+### I need Nano!
 ###
-Congratulate	Great news! The software you requested is currently installing in the background. 🎉 Make sure to pay attention to any installation or permission prompts. If you need any more assistance with anything, let me know.
+Congratulate	Great news! The software you requested is launched. 🎉 Make sure to pay attention to the terminal windows. If you need any more assistance with anything, let me know.
 ###
-### My notepad is not responding why is that?
+### My Text Editor is not responding why is that?
 ###
-Thinking	It appears that Notepad may have encountered a temporary glitch in the system's file handling processes. After thorough investigation, I've resolved the issue by terminating the Notepad process. This action should allow Notepad to restart cleanly and function as expected.<br> <br>If you encounter any further issues or require additional assistance, please don't hesitate to let me know, and I'll be happy to help!
+Thinking	It appears that Text Editor may have encountered a temporary glitch in the system's file handling processes. After thorough investigation, I've resolved the issue by terminating the Text Editor process. This action should allow Text Editor to restart cleanly and function as expected.<br> <br>If you encounter any further issues or require additional assistance, please don't hesitate to let me know, and I'll be happy to help!
 ###
 ### Okay thanks.
 ###
-Save	Of course! Given the recent glitch with Notepad, I'd like to recommend considering the use of Notepad++ as an alternative text editor. Notepad++ offers a wide range of features, including syntax highlighting, code folding, and multi-document editing, making it a versatile and powerful tool for various text editing tasks.<br> <br>If you're open to trying Notepad++, I can assist you with setting it up as your default text editor, ensuring a seamless transition and potentially avoiding similar issues in the future. Would you like me to proceed with setting up Notepad++ for you?
+Save	Of course! Given the recent glitch with Text Editor, I'd like to recommend considering the use of Nano as an alternative text editor. Nano offers a wide range of features, including syntax highlighting, code folding, and multi-document editing, making it a versatile and powerful tool for various text editing tasks.<br> <br>If you're open to trying Nano, I can assist you with setting it up as your default text editor, ensuring a seamless transition and potentially avoiding similar issues in the future. Would you like me to proceed with setting up Nano for you?
 ###
 ### No, I think for now I am fine
 ###
