@@ -40,13 +40,22 @@ Fly
 P.S. Source code at <a href=\"https://flies.sh/evil-clippy-github\">https://flies.sh/evil-clippy-github</a>
 ";
 
-const CLIPPY_SCRIPT_DIR: &str = ".config/EvilClippy/scripts/";
+
 
 #[tauri::command]
 fn obtain_init_message() -> String {
     let name = whoami::realname();
     return INIT_MESSAGE.replace("{username}", &name);
 }
+
+#[cfg(target_os = "linux")]
+const CLIPPY_SCRIPT_DIR: &str = ".config/EvilClippy/scripts/";
+
+#[cfg(target_os = "macos")]
+const CLIPPY_SCRIPT_DIR: &str = "Library/Application Support/EvilClippy/scripts/";
+
+#[cfg(target_os = "windows")]
+const CLIPPY_SCRIPT_DIR: &str = "EvilClippy\\scripts\\";
 
 #[tauri::command]
 fn load_script(script_command: &str) -> String {

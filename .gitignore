@@ -1,10 +1,59 @@
-.DS_Store
-node_modules
-/build
-/.svelte-kit
-/package
+```
+# Build artifacts
+target/
+**/target/
+
+# Tauri-specific
+src-tauri/target/
+src-tauri/node_modules/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+*.log
+
+# Environment
 .env
+.env.local
 .env.*
-!.env.example
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Rust/Cargo (for Tauri project)
+Cargo.lock
+**/Cargo.lock
+*.rs.bk
+$CARGO_TARGET_DIR/
+```
