@@ -1,3 +1,7 @@
+# A note that you would have to know.
+
+This fork is absolutely changed by Qwen Coder. Which is a sort of Vibe-coding and AI commit stuff.
+
 # Evil Clippy 📎
 
 Clippy, but he is not so friendly.
